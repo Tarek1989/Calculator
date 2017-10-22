@@ -1,0 +1,65 @@
+﻿<Window x:Class="WPFCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="563">
+
+    <Grid Background="DarkGray" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="239*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Border BorderThickness="1" BorderBrush="Black" CornerRadius="10" Padding="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="169,0,179,141" Width="199" Background="WhiteSmoke" Grid.Row="1" Height="24">
+            <TextBox Name="txtvalue1"   Height="23"  TextWrapping="Wrap"   TextAlignment="Center" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" Margin="6,2,8,0" />
+        </Border>
+        <Label Content="value" HorizontalAlignment ="Center" Margin="235,0,235,170" VerticalAlignment="Bottom" FontSize="15" FontStyle="Normal" FontWeight="DemiBold" Grid.Row="1" Width="47" />
+
+        <Border BorderThickness="1" BorderBrush="Black" CornerRadius="10" Padding="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="154,129,164,81" Width="199" Background="WhiteSmoke" Grid.Row="1">
+            <TextBox HorizontalAlignment="Center" Name="txtvalue2" Height="23" TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Top" Width="179" Background="Transparent" BorderThickness="0" Margin="7,0"/>
+        </Border>
+        <Label Content="value" VerticalAlignment="Bottom" HorizontalAlignment="Center"  Margin="232,0,231,110" FontSize="15" FontStyle="Normal" FontWeight="DemiBold" Grid.Row="1" />
+
+
+
+        <Border Background="#696969" BorderBrush="Black" BorderThickness="0,0,0,3" HorizontalAlignment="Left" Height="81" Margin="-1,-1,0,0" VerticalAlignment="Top" Width="556" >
+            <TextBox FontSize="35"    HorizontalAlignment="Right" Height="50"  TextWrapping="Wrap" Name="txtcalculation"   VerticalAlignment="Center" Width="50" Background="Transparent" BorderThickness="0" />
+        </Border>
+
+        <Border  Background="#696969" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="239" Margin="439,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116"/>
+
+        <Border  Background="AntiqueWhite" CornerRadius="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="92">
+            <Button  BorderThickness="0" Background="Transparent" FontWeight="Bold" Content="+"   VerticalContentAlignment="Top" HorizontalContentAlignment="Center" FontSize="30"  x:Name="btnAdd" Click="btnAdd_Click"  HorizontalAlignment="Center"  VerticalAlignment="Center" Width="48" Height="50"  Grid.Row="1" RenderTransformOrigin="0.708,2.49"/>
+        </Border>
+
+        <Border Background="AntiqueWhite" CornerRadius="10"  BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,69,0,0" VerticalAlignment="Top" Width="92" Grid.Row="1">
+            <Button BorderThickness="0" Background="Transparent" Content="-" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" FontSize="35" x:Name="btnSub" Click="btnSub_Click" HorizontalAlignment="Center" Width="48" RenderTransformOrigin="-3.05,0.35" Grid.Row="1" FontWeight="Bold" Margin="21,-7,21,-6" Height="53" VerticalAlignment="Top"  />
+        </Border>
+
+        <Border Background="AntiqueWhite" CornerRadius="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,128,0,0" Grid.Row="1" VerticalAlignment="Top" Width="92">
+            <Button BorderThickness="0" Background="Transparent" Content="*" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="35" x:Name="btnMult" Click="btnMult_Click" HorizontalAlignment="Center" Margin="36,1,34,0" VerticalAlignment="Top" Width="48" FontWeight="Bold" Grid.Row="1" RenderTransformOrigin="-3.339,-3.111"/>
+        </Border>
+
+        <Border Background="AntiqueWhite" CornerRadius="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,188,0,0" Grid.Row="1" VerticalAlignment="Top" Width="92">
+            <Button BorderThickness="0" Background="Transparent" Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="35" x:Name="btnDiv" Click="btnDiv_Click" HorizontalAlignment="Center" Margin="36,-5,34,0" VerticalAlignment="Top" Width="48" FontWeight="Bold" Grid.Row="1" RenderTransformOrigin="20.768,-5.345" />
+        </Border>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
