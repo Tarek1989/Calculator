@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFCalculator.exe" size="13776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFCalculator.exe" size="14288">
       <assemblyIdentity name="WPFCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mmJpyV6GMFqYiVUbeN8sAEYtRJ/5mUYzWechF1f82bI=</dsig:DigestValue>
+        <dsig:DigestValue>kciiveX02nzYYf8fSIQ14f1hdoZjiBk+LO9A1d2Aj6w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

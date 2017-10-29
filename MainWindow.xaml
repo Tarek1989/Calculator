@@ -31,7 +31,9 @@
             <TextBox FontSize="35"    HorizontalAlignment="Right" Height="50"  TextWrapping="Wrap" Name="txtcalculation"   VerticalAlignment="Center" Width="50" Background="Transparent" BorderThickness="0" />
         </Border>
 
-        <Border  Background="#696969" BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Left" Height="239" Margin="439,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116"/>
+        <Border  Background="#696969" BorderBrush="Black" BorderThickness="2,0,2,2" HorizontalAlignment="Left" Height="239" Margin="439,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116"/>
+
+
 
         <Border  Background="AntiqueWhite" CornerRadius="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="92">
             <Button  BorderThickness="0" Background="Transparent" FontWeight="Bold" Content="+"   VerticalContentAlignment="Top" HorizontalContentAlignment="Center" FontSize="30"  x:Name="btnAdd" Click="btnAdd_Click"  HorizontalAlignment="Center"  VerticalAlignment="Center" Width="48" Height="50"  Grid.Row="1" RenderTransformOrigin="0.708,2.49"/>
@@ -48,6 +50,8 @@
         <Border Background="AntiqueWhite" CornerRadius="10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="42" Margin="452,188,0,0" Grid.Row="1" VerticalAlignment="Top" Width="92">
             <Button BorderThickness="0" Background="Transparent" Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="35" x:Name="btnDiv" Click="btnDiv_Click" HorizontalAlignment="Center" Margin="36,-5,34,0" VerticalAlignment="Top" Width="48" FontWeight="Bold" Grid.Row="1" RenderTransformOrigin="20.768,-5.345" />
         </Border>
+
+        <Button BorderBrush="Black" BorderThickness="2" Background="AntiqueWhite" Content="=" x:Name="btnEqual" Click="btnEqual_Click" FontSize="35" HorizontalAlignment="Left" Height="242" Margin="-4,79,0,0" VerticalAlignment="Top" Width="82" Grid.RowSpan="2"/>
 
 
 
